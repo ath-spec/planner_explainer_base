@@ -1,0 +1,90 @@
+{
+  "defaultDomain": "blocksworld_domain.pddl",
+  "defaultOptions": "",
+  "cases": [
+    {
+      "description": "Original problem file",
+      "problem": "blocksworld_problem.pddl"
+    },
+    {
+      "label": "0: after (pick-up a yellow) ",
+      "description": "Test case for planning from: \nTime point: 0 and after the application of \nAction: pick-up a yellow ",
+      "problem": "blocksworld_problem_0_pick-up_a_yellow.pddl"
+    },
+    {
+      "label": "0.001: after (stack a b) ",
+      "description": "Test case for planning from: \nTime point: 0.001 and after the application of \nAction: stack a b ",
+      "problem": "blocksworld_problem_0.001_stack_a_b.pddl"
+    },
+    {
+      "label": "0.002: after (unstack-same-colour d c yellow) ",
+      "description": "Test case for planning from: \nTime point: 0.002 and after the application of \nAction: unstack-same-colour d c yellow ",
+      "problem": "blocksworld_problem_0.002_unstack-same-colour_d_c_yellow.pddl"
+    },
+    {
+      "label": "0.003: after (put-down d) ",
+      "description": "Test case for planning from: \nTime point: 0.003 and after the application of \nAction: put-down d ",
+      "problem": "blocksworld_problem_0.003_put-down_d.pddl"
+    },
+    {
+      "label": "0.004: after (clean yellow) ",
+      "description": "Test case for planning from: \nTime point: 0.004 and after the application of \nAction: clean yellow ",
+      "problem": "blocksworld_problem_0.004_clean_yellow.pddl"
+    },
+    {
+      "label": "0.005: after (pick-up c red) ",
+      "description": "Test case for planning from: \nTime point: 0.005 and after the application of \nAction: pick-up c red ",
+      "problem": "blocksworld_problem_0.005_pick-up_c_red.pddl"
+    },
+    {
+      "label": "0.006: after (stack c d) ",
+      "description": "Test case for planning from: \nTime point: 0.006 and after the application of \nAction: stack c d ",
+      "problem": "blocksworld_problem_0.006_stack_c_d.pddl"
+    },
+    {
+      "label": "0.007: after (clean red) ",
+      "description": "Test case for planning from: \nTime point: 0.007 and after the application of \nAction: clean red ",
+      "problem": "blocksworld_problem_0.007_clean_red.pddl"
+    },
+    {
+      "label": "0.008: after (unstack a b yellow) ",
+      "description": "Test case for planning from: \nTime point: 0.008 and after the application of \nAction: unstack a b yellow ",
+      "problem": "blocksworld_problem_0.008_unstack_a_b_yellow.pddl"
+    },
+    {
+      "label": "0.009: after (put-down a) ",
+      "description": "Test case for planning from: \nTime point: 0.009 and after the application of \nAction: put-down a ",
+      "problem": "blocksworld_problem_0.009_put-down_a.pddl"
+    },
+    {
+      "label": "0.01: after (clean yellow) ",
+      "description": "Test case for planning from: \nTime point: 0.01 and after the application of \nAction: clean yellow ",
+      "problem": "blocksworld_problem_0.01_clean_yellow.pddl"
+    },
+    {
+      "label": "0.011: after (pick-up b red) ",
+      "description": "Test case for planning from: \nTime point: 0.011 and after the application of \nAction: pick-up b red ",
+      "problem": "blocksworld_problem_0.011_pick-up_b_red.pddl"
+    },
+    {
+      "label": "0.012: after (stack b c) ",
+      "description": "Test case for planning from: \nTime point: 0.012 and after the application of \nAction: stack b c ",
+      "problem": "blocksworld_problem_0.012_stack_b_c.pddl"
+    },
+    {
+      "label": "0.013: after (clean red) ",
+      "description": "Test case for planning from: \nTime point: 0.013 and after the application of \nAction: clean red ",
+      "problem": "blocksworld_problem_0.013_clean_red.pddl"
+    },
+    {
+      "label": "0.014: after (pick-up a yellow) ",
+      "description": "Test case for planning from: \nTime point: 0.014 and after the application of \nAction: pick-up a yellow ",
+      "problem": "blocksworld_problem_0.014_pick-up_a_yellow.pddl"
+    },
+    {
+      "label": "0.015: after (stack a b) ",
+      "description": "Test case for planning from: \nTime point: 0.015 and after the application of \nAction: stack a b ",
+      "problem": "blocksworld_problem_0.015_stack_a_b.pddl"
+    }
+  ]
+}

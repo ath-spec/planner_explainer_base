@@ -1,0 +1,29 @@
+;;!domain:blocks
+;;!problem:sussman
+; Number of literals: 28
+; Constructing lookup tables: [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+; Post filtering unreachable actions:  [10%] [20%] [30%] [40%] [50%] [60%] [70%] [80%] [90%] [100%]
+; No semaphore facts found, returning
+; Initial heuristic = 7.000
+; b (6.000 | 0.002)b (5.000 | 0.004)b (4.000 | 0.005)b (3.000 | 0.008)
+; Resorting to best-first search
+; b (6.000 | 0.002)b (5.000 | 0.004)b (4.000 | 0.006)b (3.000 | 0.007)b (2.000 | 0.013)b (1.000 | 0.014)
+;;;; Solution Found
+; States evaluated: 77
+; Cost: 0.015
+0.00000: (pick-up a yellow) 
+0.00100: (stack a b) 
+0.00200: (unstack-same-colour d c yellow) 
+0.00300: (put-down d) 
+0.00400: (clean yellow) 
+0.00500: (pick-up c red) 
+0.00600: (stack c d) 
+0.00700: (clean red) 
+0.00800: (unstack a b yellow) 
+0.00900: (put-down a) 
+0.01000: (clean yellow) 
+0.01100: (pick-up b red) 
+0.01200: (stack b c) 
+0.01300: (clean red) 
+0.01400: (pick-up a yellow) 
+0.01500: (stack a b) 

@@ -1,0 +1,75 @@
+{
+  "defaultDomain": "newdomain.pddl",
+  "defaultOptions": "",
+  "cases": [
+    {
+      "description": "Original problem file",
+      "problem": "newproblem.pddl"
+    },
+    {
+      "label": "0: after (stack a b) ",
+      "description": "Test case for planning from: \nTime point: 0 and after the application of \nAction: stack a b ",
+      "problem": "newproblem_0_stack_a_b.pddl"
+    },
+    {
+      "label": "0.001: after (clean yellow) ",
+      "description": "Test case for planning from: \nTime point: 0.001 and after the application of \nAction: clean yellow ",
+      "problem": "newproblem_0.001_clean_yellow.pddl"
+    },
+    {
+      "label": "0.002: after (pick-up c red) ",
+      "description": "Test case for planning from: \nTime point: 0.002 and after the application of \nAction: pick-up c red ",
+      "problem": "newproblem_0.002_pick-up_c_red.pddl"
+    },
+    {
+      "label": "0.003: after (stack c d) ",
+      "description": "Test case for planning from: \nTime point: 0.003 and after the application of \nAction: stack c d ",
+      "problem": "newproblem_0.003_stack_c_d.pddl"
+    },
+    {
+      "label": "0.004: after (clean red) ",
+      "description": "Test case for planning from: \nTime point: 0.004 and after the application of \nAction: clean red ",
+      "problem": "newproblem_0.004_clean_red.pddl"
+    },
+    {
+      "label": "0.005: after (unstack a b yellow) ",
+      "description": "Test case for planning from: \nTime point: 0.005 and after the application of \nAction: unstack a b yellow ",
+      "problem": "newproblem_0.005_unstack_a_b_yellow.pddl"
+    },
+    {
+      "label": "0.006: after (put-down a) ",
+      "description": "Test case for planning from: \nTime point: 0.006 and after the application of \nAction: put-down a ",
+      "problem": "newproblem_0.006_put-down_a.pddl"
+    },
+    {
+      "label": "0.007: after (clean yellow) ",
+      "description": "Test case for planning from: \nTime point: 0.007 and after the application of \nAction: clean yellow ",
+      "problem": "newproblem_0.007_clean_yellow.pddl"
+    },
+    {
+      "label": "0.008: after (pick-up b red) ",
+      "description": "Test case for planning from: \nTime point: 0.008 and after the application of \nAction: pick-up b red ",
+      "problem": "newproblem_0.008_pick-up_b_red.pddl"
+    },
+    {
+      "label": "0.009: after (stack b c) ",
+      "description": "Test case for planning from: \nTime point: 0.009 and after the application of \nAction: stack b c ",
+      "problem": "newproblem_0.009_stack_b_c.pddl"
+    },
+    {
+      "label": "0.01: after (clean red) ",
+      "description": "Test case for planning from: \nTime point: 0.01 and after the application of \nAction: clean red ",
+      "problem": "newproblem_0.01_clean_red.pddl"
+    },
+    {
+      "label": "0.011: after (pick-up a yellow) ",
+      "description": "Test case for planning from: \nTime point: 0.011 and after the application of \nAction: pick-up a yellow ",
+      "problem": "newproblem_0.011_pick-up_a_yellow.pddl"
+    },
+    {
+      "label": "0.012: after (stack a b) ",
+      "description": "Test case for planning from: \nTime point: 0.012 and after the application of \nAction: stack a b ",
+      "problem": "newproblem_0.012_stack_a_b.pddl"
+    }
+  ]
+}
